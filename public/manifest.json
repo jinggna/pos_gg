@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "꽈배기 매장 POS & 선불 장부",
+  "short_name": "꽈배기 POS",
+  "description": "꽈배기 매장에서 학생들의 선불 적립금을 관리하고 차감하는 실전용 매장 POS 및 장부 관리 앱",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

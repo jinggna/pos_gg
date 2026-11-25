@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="꽈배기 POS 아이콘">
+  <rect width="512" height="512" rx="96" fill="#B85D19" />
+  <rect x="112" y="112" width="288" height="288" rx="68" fill="#FAF6F0" />
+  <g fill="none" stroke="#CC8822" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M196 312c-26-26-26-66 0-92l28-28c26-26 66-26 92 0s26 66 0 92l-28 28" />
+    <path d="M316 200c26 26 26 66 0 92l-28 28c-26 26-66 26-92 0s-26-66 0-92l28-28" />
+  </g>
+</svg>

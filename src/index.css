@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF6F0;
+    color: #2C1E16;
+    -webkit-tap-highlight-color: transparent;
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+  }
+}
+
+.font-num {
+  font-family: var(--font-mono), var(--font-sans);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pure HEX/RGB styles for html2canvas receipt capture (avoids Tailwind v4 oklch parsing errors) */
+.receipt-capture-root {
+  background-color: #FFFDF9;
+  color: #2C1E16;
+  border: 1px solid #DFD3C3;
+  border-radius: 16px;
+  font-family: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.receipt-capture-root * {
+  box-sizing: border-box;
+}
+
+.receipt-header {
+  border-bottom: 2px dashed #D7C7B2;
+}
+
+.receipt-store-title {
+  color: #2C1E16;
+}
+
+.receipt-muted {
+  color: #745D4E;
+}
+
+.receipt-summary-box {
+  background-color: #F7F1E8;
+  border: 1px solid #E5D9C8;
+  border-radius: 12px;
+}
+
+.receipt-divider {
+  border-color: #E5D9C8;
+}
+
+.receipt-positive {
+  color: #1E7A4C;
+}
+
+.receipt-negative {
+  color: #B9382C;
+}
+
+.receipt-highlight-box {
+  background-color: #FDF3E7;
+  border: 1px solid #E8C9A4;
+  border-radius: 12px;
+}
+
+.receipt-low-alert {
+  background-color: #FEF2F2;
+  border: 1px solid #F5B8B4;
+  color: #B9382C;
+  border-radius: 10px;
+}
+
+/* Subtle custom scrollbar for POS panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9CBB8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA98E;
+}
